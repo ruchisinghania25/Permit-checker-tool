@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Need a Permit?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Do You Need a Permit?</h3>
+
+        <label for="category">Select a Category:</label>
+        <select id="category" onchange="handleCategoryChange()">
+            <option value="" selected disabled>Select a category</option>
+            <option value="interior">Interior Renovations</option>
+            <option value="exterior">Exterior Renovations</option>
+            <option value="structural">Structural Renovations</option>
+            <option value="environmental">Environmental or Sustainable Changes</option>
+            <option value="miscellaneous">Miscellaneous</option>
+        </select>
+
+        <div id="project-container" style="display: none;">
+            <label for="project">Select a Project:</label>
+            <select id="project" onchange="handleProjectChange()"></select>
+        </div>
+
+        <div id="follow-up-container" style="display: none;">
+            <p id="question"></p>
+            <button onclick="setResult('yes')" class="yes-button">Yes</button>
+            <button onclick="setResult('no')" class="no-button">No</button>
+        </div>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
