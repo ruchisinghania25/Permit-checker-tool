@@ -93,10 +93,4 @@ function setResult(answer) {
     resultDiv.textContent = answer === "yes" ? selectedProject.yes : selectedProject.no;
     resultDiv.style.display = "block";
 
-function showResult(isAllowed) {
-    let resultDiv = document.getElementById("result");
-    resultDiv.className = "result-box " + (isAllowed ? "result-yes" : "result-no");
-    resultDiv.textContent = isAllowed ? "Yes, it is allowed!" : "No, it is not allowed!";
-}
-
 }
