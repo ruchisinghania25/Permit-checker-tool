@@ -24,6 +24,12 @@ h3 {
     margin-bottom: 20px;
 }
 
+.intro-text {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #555; /* A subtle gray color */
+    line-height: 1.5;
+}
 label {
     font-weight: bold;
     color: #555;
