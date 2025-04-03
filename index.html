@@ -3,20 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do You Need a Permit for Your Home Project? Find out Instantly!</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Do You Need a Permit?</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1 class="page-title">Do You Need a Permit for Your Home Project? Find out Instantly!</h1>
-    </header>
     <div class="container">
-        <h1>Permit Checker Tool</h1>
-        <p>Are you a homeowner, thinking about starting a home project? Well, the first step is to find out if you need a permit or not.</p>
-        <p>Our Permit Checker Tool simplifies this process by giving you quick and reliable guidance. Simply select a category, choose your project type, and answer a follow-up question to determine if a permit is required. This will help you better plan your project's timeline and budget with confidence.</p>
-        <p>Keep in mind that this tool provides a general guideline. Always check with your local building department to ensure compliance with city-specific regulations.</p>
-        
-        <label for="category">Select the Project Category:</label>
+        <h3>Do You Need a Permit?</h3>
+
+        <label for="category">Select a Category:</label>
         <select id="category" onchange="handleCategoryChange()">
             <option value="" selected disabled>Select a category</option>
             <option value="interior">Interior Renovations</option>
@@ -27,7 +21,7 @@
         </select>
 
         <div id="project-container" style="display: none;">
-            <label for="project">Select the Project:</label>
+            <label for="project">Select a Project:</label>
             <select id="project" onchange="handleProjectChange()"></select>
         </div>
 
@@ -39,6 +33,7 @@
 
         <div id="result"></div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
