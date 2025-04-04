@@ -12,6 +12,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    position: relative;
+
 }
 
 .container {
@@ -22,6 +24,7 @@ body {
     max-width: 600px;
     width: 100%;
     text-align: center;
+    transform: translateY(-10%);
 }
 
 h3 {
