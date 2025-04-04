@@ -1,3 +1,9 @@
+/* 
+    © 2025 Built Basics. All rights reserved.
+    Author: Ruchi Singhania
+    Description: Script for handling category and project logic in Permit Checker Tool
+*/
+
 const categories = {
     interior: [
         { name: "Kitchen Renovation", question: "Are you changing plumbing, electrical, or moving walls?", yes: "Permit required.", no: "No permit typically needed for cosmetic changes like painting, new cabinets, or countertops." },
