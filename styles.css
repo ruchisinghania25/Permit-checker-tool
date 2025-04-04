@@ -81,6 +81,7 @@ button {
     color: #222; /* A subtle gray color */
     font-weight: 500;
     line-height: 1.5;
+    justify-content: left;
     text-align: left;
     margin-left: 20px; /* Adjust the left margin */
     margin-right: 20px; /* Adjust the right margin */
