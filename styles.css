@@ -5,7 +5,7 @@
 */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f7f9fc;
     display: flex;
     justify-content: center;
@@ -76,6 +76,7 @@ button {
 }
 
 .intro-text {
+    font-family: 'Roboto', sans-serif;
     font-size: 0.9em;
     color: #222; /* A subtle gray color */
     line-height: 1.5;
