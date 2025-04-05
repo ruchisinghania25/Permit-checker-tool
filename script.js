@@ -98,5 +98,5 @@ function setResult(answer) {
 
     resultDiv.textContent = answer === "yes" ? selectedProject.yes : selectedProject.no;
     resultDiv.style.display = "block";
-
+    document.getElementById('contact-info').style.display = 'block';
 }
