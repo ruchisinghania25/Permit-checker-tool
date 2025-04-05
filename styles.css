@@ -98,5 +98,8 @@ button {
 .intro-text a:hover {
     color: #003d80; /* Darker on hover for feedback */
 }
+.additional-links {
+    margin-top: 40px; /* Adds space above the paragraph */
+}
 
 
