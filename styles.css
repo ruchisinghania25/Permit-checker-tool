@@ -16,6 +16,15 @@ body {
 
 }
 
+html, body {
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     background-color: white;
     padding: 30px;
@@ -25,6 +34,7 @@ body {
     width: 100%;
     text-align: center;
     transform: translateY(-5%);
+    margin: auto;
 }
 
 h3 {
