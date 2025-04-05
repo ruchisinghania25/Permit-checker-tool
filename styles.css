@@ -90,4 +90,13 @@ button {
     margin-right: 20px; /* Adjust the right margin */
     margin-bottom: 20px;
 }
+.intro-text a {
+    color: #0056b3; /* A friendly blue */
+    text-decoration: bold;
+}
+
+.intro-text a:hover {
+    color: #003d80; /* Darker on hover for feedback */
+}
+
 
