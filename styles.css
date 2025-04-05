@@ -81,12 +81,16 @@ button {
 }
 
 #result {
-    display: none;
+    background-color: #e8f0fe;  /* Light blue or change as preferred */
+    padding: 16px;
     margin-top: 20px;
-    font-size: 1.2em;
-    padding: 10px;
-    border-radius: 6px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #333;
+    border: 1px solid #c0d3f7;
+    display: none; /* Will be shown dynamically when needed */
 }
+
 
 .intro-text {
     font-family: 'Roboto', sans-serif;
