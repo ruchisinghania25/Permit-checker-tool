@@ -92,7 +92,8 @@ button {
 }
 .intro-text a {
     color: #0056b3; /* A friendly blue */
-    text-decoration: bold;
+    font-weight: 700;  /* Makes the link bold */
+    text-decoration: none;
 }
 
 .intro-text a:hover {
