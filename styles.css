@@ -60,6 +60,16 @@ button {
     transition: background-color 0.3s ease;
 }
 
+#project-container,
+#follow-up-container {
+    margin-top: 20px;
+}
+
+#follow-up-container p {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
 .yes-button {
     color: white;
     background-color: #d9534f;
